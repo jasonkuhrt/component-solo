@@ -1,0 +1,36 @@
+{
+  "name": "component-dev",
+  "version": "0.0.0",
+  "description": "Work on components in isolation",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "component-dev": "bin/component-dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonkuhrt/component-solo.git"
+  },
+  "keywords": [
+    "isolation",
+    "bootstrap",
+    "solo",
+    "component",
+    "ux",
+    "util",
+    "development"
+  ],
+  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/component-solo/issues"
+  },
+  "homepage": "https://github.com/jasonkuhrt/component-solo",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "component-consoler": "^1.1.2",
+    "gnarl": "0.0.1",
+    "jade": "^1.3.1",
+    "merge-util": "^0.1.0"
+  }
+}
